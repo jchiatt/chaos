@@ -1,19 +1,30 @@
 {
   "name": "chaos",
-  "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "0.0.1-development",
+  "description": "Utilities for frontend chaos engineering.",
+  "keywords": [
+    "chaos",
+    "engineering",
+    "testing",
+    "ux",
+    "fault",
+    "tolerance"
+  ],
   "main": "dist/chaos.umd.js",
   "module": "dist/chaos.es5.js",
   "typings": "dist/types/chaos.d.ts",
   "files": [
     "dist"
   ],
-  "author": "J.C. Hiatt <jc@echobind.com>",
+  "author": "J.C. Hiatt <jc@jchiatt.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/jchiatt/chaos.git"
   },
+  "bugs": {
+    "url": "https://github.com/jchiatt/chaos/issues"
+  },
+  "homepage": "https://github.com/jchiatt/chaos#readme",
   "license": "MIT",
   "engines": {
     "node": ">=6.0.0"
